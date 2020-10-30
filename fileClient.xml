@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "File.dtd">
+<client idClient ="A123">
+    <nom>
+        Meriem
+    </nom>
+    <commande> 
+        <ligne >
+           <produit>
+               <quantite> 123</quantite>
+           </produit>
+            <produit>
+                <quantite> 12</quantite>
+            </produit>
+        </ligne>
+      
+    </commande> 
+    <date>
+        12-12-2020
+    </date> 
+    
+</client>
