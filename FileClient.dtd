@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT root (client+)>
+<!ELEMENT client (Nom?,Adresse, date?,commande+)+>
+<!ELEMENT commande (ligneCommande)+>
+<!ELEMENT ligneCommande  (produit)+>
+<!ELEMENT produit (nomProduit,quantite?)>
+
+<!ELEMENT Nom (#PCDATA) >
+<!ELEMENT Adresse (#PCDATA)>
+<!ELEMENT date (#PCDATA) >add
+<!ELEMENT quantite (#PCDATA) >
+<!ELEMENT nomProduit (#PCDATA) >
+
+<!ATTLIST client idClient ID #REQUIRED>
+<!ATTLIST produit NumPoduct ID #REQUIRED>
