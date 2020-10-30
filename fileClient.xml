@@ -1,22 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE client SYSTEM "File.dtd">
-<client idClient ="A123">
-    <nom>
-        Meriem
-    </nom>
+<!DOCTYPE root SYSTEM "File.dtd">
+ <root>
+ <client idClient ="CUSTOMER12">
+    <Nom>
+    
+    Paul JANE 
+    </Nom>
+    <Adresse>
+    </Adresse>
+    <date>
+        25-10-2020 
+    </date>
     <commande> 
-        <ligne >
-           <produit>
-               <quantite> 123</quantite>
-           </produit>
-            <produit>
+        <ligneCommande>
+            <produit NumPoduct="A12">
+               <nomProduit >Tei te </nomProduit>
+               <quantite> 12</quantite>
+            </produit >
+            <produit NumPoduct="A13">
+                <nomProduit > RTE tir</nomProduit>
+                <quantite> 16</quantite>
+            </produit>
+        </ligneCommande>
+      
+    </commande>
+</client>
+
+<client idClient ="CUSTOMER13">
+    <Nom>
+            Jhon JEAMS
+    </Nom>
+    <Adresse>
+        bd Anfa CASABLANCA 
+    </Adresse>
+    <date>
+        12-10-2020 
+    </date>
+    <commande> 
+        <ligneCommande>
+            <produit NumPoduct="B12">
+                <nomProduit >RETUD serrtt65 </nomProduit>
                 <quantite> 12</quantite>
             </produit>
-        </ligne>
-      
-    </commande> 
-    <date>
-        12-12-2020
-    </date> 
-    
+        </ligneCommande>
+        
+    </commande>
+    <commande> 
+        <ligneCommande>
+            <produit NumPoduct="C12">
+                <nomProduit >RTE-1234</nomProduit>
+                <quantite> 122</quantite>
+            </produit>
+            <produit NumPoduct="C13">
+                <nomProduit > AZE-2020</nomProduit>
+                <quantite> 136</quantite>
+            </produit>
+            <produit NumPoduct="C14">
+                <nomProduit > DRT VI </nomProduit>
+                <quantite> 19 </quantite>
+            </produit>
+        </ligneCommande>
+        
+    </commande>
 </client>
+</root>
